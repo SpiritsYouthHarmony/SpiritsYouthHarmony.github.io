@@ -1,62 +1,90 @@
 <!DOCTYPE html>
-<html lang="cmn-hans">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SpiritYouthHarmony的个人主页</title>
+    <title>个人简历</title>
     <style>
-        .red{
-            color: red;
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
         }
-
-        .big-center{
-            font-size: 3em;
+		header {
             text-align: center;
+            margin-bottom: 20px;
+        }
+		header img {
+            width: 150px; /* 调整证件照的宽度 */
+            /*border-radius: 50%;  将证件照设置为圆形 */
+            margin-bottom: 10px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        p {
+            color: #666;
+        }
+        .section {
+            margin-bottom: 20px;
         }
     </style>
 </head>
 <body>
-    <span></span>
-    <!-- 超链接 -->
-    <a href="https://space.bilibili.com/1450997699?spm_id_from=333.1007.0.0">
-        <img style="width: 15cm;" src="./黄芪当归党参.png" alt="欢迎关注">
-    </a>
-    <br>
-    <a href="https://space.bilibili.com/1450997699?spm_id_from=333.1007.0.0" title="WELCOME!" style="font-size: 1cm;">
-        Follow me on <span style="color: #e8270d;">bilibili</span>
-    </a>
-    
-    <h1 title="This is my homepage!">WELOCOME!</h1>
-
-    <a href="https://pan.baidu.com/s/1qHTKPcG3E1WsgnnCR8IXcg" style="font-size: 0.8cm;">
-        通信原理笔记-随机信号分析01
-    </a>
-    <br>
-    <span style="color: rgb(34, 125, 26); font-size: 0.8cm;">
-        提取码ssyh
-    </span>
-    <br>
-    <a href="https://pan.baidu.com/s/1m7HMnSUnSZ8nEYUDbhuVFQ" style="font-size: 0.8cm;">
-        通信原理笔记-随机信号分析02
-    </a> 
-    <br>
-    <span style="color: rgb(34, 125, 26); font-size: 0.8cm;">
-        提取码j9tn
-    </span>
-    <br>
-
-    <a href="https://pan.baidu.com/s/1TOyFGnCL8EH7EzfgIwgmBw?pwd=ttxz" style="font-size: 0.8cm;">
-        数学物理方法笔记
-    </a>
-    <br>
-    <span style="color: rgb(34, 125, 26); font-size: 0.8cm;">
-        提取码ttxz
-    </span>
-    <br>
-
-    <br>
-    <a href="mailto:yonghao@bupt.edu.cn" style="color: rgb(16, 16, 16); font-size: 0.8cm;">
-        链接过期可点此通过邮件联系我
-    </a>
+    <div class="container">
+        <header>
+			<img src="./_MG_1609.jpg" alt="证件照">
+            <h1>个人简历 盛勇豪 北京邮电大学 信息与通信工程学院</h1>
+        </header>
+        <section class="section">
+            <h2>基本信息</h2>
+            <p>姓名：盛勇豪</p>
+            <p>出生年月：2003.05</p>
+            <p>籍贯：河南省漯河市</p>
+			<p>电话：+86-139-3954-5333</p>
+			<p>电子邮箱1：yonghao@bupt.edu.cn</p>
+			<p>电子邮箱2：yonghaos395@gmail.com</p>
+        </section>
+        <section class="section">
+            <h2>教育背景</h2>
+            <p>2021 - 至今 本科，北京邮电大学大学，信息与通信工程学院，电子信息工程专业</p>
+        </section>
+		<section class="section">
+            <h2>英语水平</h2>
+            <p>大学生英语四级CET-4 565</p>
+			<p>大学生英语六级CET-6 594</p>
+        </section>
+        <section class="section">
+            <h2>荣誉及奖励</h2>
+            <p>2021 全国大学生英语竞赛初赛 三等奖</p>
+            <p>2021-2022学年 北京邮电大学一等奖学金，北京邮电大学“三好学生”</p>
+			<p>2022 第十四届全国大学生数学竞赛初赛二等奖（北京市大学生数学竞赛一等奖）</p>
+            <p>2022-2023学年 小米奖学金，北京邮电大学“三好学生”</p>
+			<p>2023 全国大学生电子设计竞赛（北京赛区） 二等奖</p>
+            
+        </section>
+        <section class="section">
+            <h2>技能</h2>
+            <ul>
+                <li>编程语言：Java, Python, JavaScript</li>
+                <li>Web开发：HTML, CSS, JavaScript, React</li>
+                <li>数据库：MySQL, MongoDB</li>
+                <li>操作系统：Windows, Linux</li>
+            </ul>
+        </section>
+        <section class="section">
+            <h2>兴趣爱好</h2>
+            <p>阅读、篮球、旅行</p>
+        </section>
+    </div>
 </body>
 </html>
